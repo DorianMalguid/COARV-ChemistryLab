@@ -23,8 +23,8 @@ public class equation1 : MonoBehaviour
     private void OnEnable()
     {
         //changer le text du tableau pour afficher la consigne
-        UnityEngine.UI.Text menu = GameObject.FindGameObjectWithTag("menuToChange").GetComponent<UnityEngine.UI.Text>();
-        menu.text = "Un peu de bleu et de rose";
+        //UnityEngine.UI.Text menu = GameObject.FindGameObjectWithTag("menuToChange").GetComponent<UnityEngine.UI.Text>();
+        //menu.text = "Un peu de bleu et de rose";
 
         //on instancie chaque fiole et le contenant
         GameObject table = gameObject;
